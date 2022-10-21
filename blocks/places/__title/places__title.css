@@ -1,0 +1,39 @@
+.places__title {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 76px;
+    width: 460px;
+    font-family: 'Inter', Arial, sans-serif;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+    .places__title {
+        max-width: 48%;
+        min-width: 48%;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .places__title {
+        width: 340px;
+        font-size: 42px;
+        font-style: normal;
+        line-height: 46px;
+        letter-spacing: 0em;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .places__title {
+        width: 90%;
+        font-size: 32px;
+        font-style: normal;
+        line-height: 35px;
+        letter-spacing: 0em;
+        text-align: left;
+        max-width: 100%;
+        margin-left: 16px;
+    }
+}
