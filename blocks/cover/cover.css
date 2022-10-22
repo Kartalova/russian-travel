@@ -1,11 +1,12 @@
 .cover {
-    background-image: url('../../images/cover-trains.jpg');
+    /* background-image: url('../../images/cover-trains.jpg'); */
     width: 1184px;
     min-height: 740px;
     display: grid;
-    background-size: cover;
-    background-repeat: no-repeat;
+    /* background-size: cover;
+    background-repeat: no-repeat; */
     margin: 92px auto 0 auto;
+    position: relative;
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
